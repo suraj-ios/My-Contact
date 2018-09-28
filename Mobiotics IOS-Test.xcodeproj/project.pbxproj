@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444193CB215CD75000D0B15F /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444193CA215CD75000D0B15F /* ActivityIndicatorView.swift */; };
+		444193CE215CD94500D0B15F /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444193CC215CD94500D0B15F /* CountryListTableViewCell.swift */; };
+		444193CF215CD94500D0B15F /* CountryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444193CD215CD94500D0B15F /* CountryListTableViewCell.xib */; };
+		444193D1215CDB1900D0B15F /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444193D0215CDB1900D0B15F /* CountryListModel.swift */; };
+		4497B62C215D2C1100F26A61 /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497B62B215D2C1100F26A61 /* CountryCodeModel.swift */; };
+		4497B62F215DCEB500F26A61 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497B62D215DCEB500F26A61 /* ContactListTableViewCell.swift */; };
+		4497B630215DCEB500F26A61 /* ContactListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4497B62E215DCEB500F26A61 /* ContactListTableViewCell.xib */; };
+		4497B632215DE39A00F26A61 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4497B631215DE39A00F26A61 /* Reachability.swift */; };
+		44E5D14C215CBDBC00115ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5D14B215CBDBC00115ACD /* AppDelegate.swift */; };
+		44E5D14E215CBDBC00115ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5D14D215CBDBC00115ACD /* ViewController.swift */; };
+		44E5D151215CBDBC00115ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E5D14F215CBDBC00115ACD /* Main.storyboard */; };
+		44E5D153215CBDBE00115ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E5D152215CBDBE00115ACD /* Assets.xcassets */; };
+		44E5D156215CBDBE00115ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E5D154215CBDBE00115ACD /* LaunchScreen.storyboard */; };
+		44E5D15E215CC42400115ACD /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5D15D215CC42400115ACD /* AddContactViewController.swift */; };
+		44E5D162215CC87100115ACD /* 480726518fe8e01d86e1d63a164615c21faa9289.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E5D161215CC87000115ACD /* 480726518fe8e01d86e1d63a164615c21faa9289.png */; };
+		44E5D164215CD62900115ACD /* CountryListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5D163215CD62900115ACD /* CountryListingViewController.swift */; };
+		80024B84E9B75C46E9C983FD /* Pods_Mobiotics_IOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25D0EEE553C9F58FAD51936 /* Pods_Mobiotics_IOS_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A83D1DEE80C02A7C4E6274 /* Pods-Mobiotics IOS-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiotics IOS-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobiotics IOS-Test/Pods-Mobiotics IOS-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		444193CA215CD75000D0B15F /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		444193CC215CD94500D0B15F /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
+		444193CD215CD94500D0B15F /* CountryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListTableViewCell.xib; sourceTree = "<group>"; };
+		444193D0215CDB1900D0B15F /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
+		4497B62B215D2C1100F26A61 /* CountryCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeModel.swift; sourceTree = "<group>"; };
+		4497B62D215DCEB500F26A61 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		4497B62E215DCEB500F26A61 /* ContactListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListTableViewCell.xib; sourceTree = "<group>"; };
+		4497B631215DE39A00F26A61 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		44E5D148215CBDBC00115ACD /* Mobiotics IOS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobiotics IOS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E5D14B215CBDBC00115ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44E5D14D215CBDBC00115ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44E5D150215CBDBC00115ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44E5D152215CBDBE00115ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E5D155215CBDBE00115ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44E5D157215CBDBE00115ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E5D15D215CC42400115ACD /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		44E5D161215CC87000115ACD /* 480726518fe8e01d86e1d63a164615c21faa9289.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 480726518fe8e01d86e1d63a164615c21faa9289.png; sourceTree = "<group>"; };
+		44E5D163215CD62900115ACD /* CountryListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListingViewController.swift; sourceTree = "<group>"; };
+		AE44E037EA1C53745DD7A84A /* Pods-Mobiotics IOS-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiotics IOS-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobiotics IOS-Test/Pods-Mobiotics IOS-Test.release.xcconfig"; sourceTree = "<group>"; };
+		F25D0EEE553C9F58FAD51936 /* Pods_Mobiotics_IOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobiotics_IOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E5D145215CBDBC00115ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80024B84E9B75C46E9C983FD /* Pods_Mobiotics_IOS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0E0D40D88427AEEB782657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25D0EEE553C9F58FAD51936 /* Pods_Mobiotics_IOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		240169C8771DEA66D452CBB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A83D1DEE80C02A7C4E6274 /* Pods-Mobiotics IOS-Test.debug.xcconfig */,
+				AE44E037EA1C53745DD7A84A /* Pods-Mobiotics IOS-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4497B628215D2B2C00F26A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				444193D0215CDB1900D0B15F /* CountryListModel.swift */,
+				4497B62B215D2C1100F26A61 /* CountryCodeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4497B629215D2B3C00F26A61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				444193CC215CD94500D0B15F /* CountryListTableViewCell.swift */,
+				444193CD215CD94500D0B15F /* CountryListTableViewCell.xib */,
+				4497B62D215DCEB500F26A61 /* ContactListTableViewCell.swift */,
+				4497B62E215DCEB500F26A61 /* ContactListTableViewCell.xib */,
+				44E5D14F215CBDBC00115ACD /* Main.storyboard */,
+				44E5D154215CBDBE00115ACD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4497B62A215D2B5E00F26A61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44E5D14D215CBDBC00115ACD /* ViewController.swift */,
+				44E5D15D215CC42400115ACD /* AddContactViewController.swift */,
+				44E5D163215CD62900115ACD /* CountryListingViewController.swift */,
+				4497B631215DE39A00F26A61 /* Reachability.swift */,
+				444193CA215CD75000D0B15F /* ActivityIndicatorView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44E5D13F215CBDBC00115ACD = {
+			isa = PBXGroup;
+			children = (
+				44E5D14A215CBDBC00115ACD /* Mobiotics IOS-Test */,
+				44E5D149215CBDBC00115ACD /* Products */,
+				240169C8771DEA66D452CBB0 /* Pods */,
+				1A0E0D40D88427AEEB782657 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44E5D149215CBDBC00115ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E5D148215CBDBC00115ACD /* Mobiotics IOS-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E5D14A215CBDBC00115ACD /* Mobiotics IOS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				44E5D14B215CBDBC00115ACD /* AppDelegate.swift */,
+				4497B62A215D2B5E00F26A61 /* Controller */,
+				4497B629215D2B3C00F26A61 /* View */,
+				4497B628215D2B2C00F26A61 /* Model */,
+				44E5D152215CBDBE00115ACD /* Assets.xcassets */,
+				44E5D161215CC87000115ACD /* 480726518fe8e01d86e1d63a164615c21faa9289.png */,
+				44E5D157215CBDBE00115ACD /* Info.plist */,
+			);
+			path = "Mobiotics IOS-Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E5D147215CBDBC00115ACD /* Mobiotics IOS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E5D15A215CBDBE00115ACD /* Build configuration list for PBXNativeTarget "Mobiotics IOS-Test" */;
+			buildPhases = (
+				71DA3C0915931848A0206608 /* [CP] Check Pods Manifest.lock */,
+				44E5D144215CBDBC00115ACD /* Sources */,
+				44E5D145215CBDBC00115ACD /* Frameworks */,
+				44E5D146215CBDBC00115ACD /* Resources */,
+				1E9E56610B31909E6C624492 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobiotics IOS-Test";
+			productName = "Mobiotics IOS-Test";
+			productReference = 44E5D148215CBDBC00115ACD /* Mobiotics IOS-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E5D140215CBDBC00115ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Suraj;
+				TargetAttributes = {
+					44E5D147215CBDBC00115ACD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 44E5D143215CBDBC00115ACD /* Build configuration list for PBXProject "Mobiotics IOS-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E5D13F215CBDBC00115ACD;
+			productRefGroup = 44E5D149215CBDBC00115ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E5D147215CBDBC00115ACD /* Mobiotics IOS-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E5D146215CBDBC00115ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4497B630215DCEB500F26A61 /* ContactListTableViewCell.xib in Resources */,
+				44E5D162215CC87100115ACD /* 480726518fe8e01d86e1d63a164615c21faa9289.png in Resources */,
+				44E5D156215CBDBE00115ACD /* LaunchScreen.storyboard in Resources */,
+				44E5D153215CBDBE00115ACD /* Assets.xcassets in Resources */,
+				444193CF215CD94500D0B15F /* CountryListTableViewCell.xib in Resources */,
+				44E5D151215CBDBC00115ACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9E56610B31909E6C624492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mobiotics IOS-Test/Pods-Mobiotics IOS-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobiotics IOS-Test/Pods-Mobiotics IOS-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DA3C0915931848A0206608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobiotics IOS-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E5D144215CBDBC00115ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E5D15E215CC42400115ACD /* AddContactViewController.swift in Sources */,
+				4497B62F215DCEB500F26A61 /* ContactListTableViewCell.swift in Sources */,
+				4497B62C215D2C1100F26A61 /* CountryCodeModel.swift in Sources */,
+				444193CB215CD75000D0B15F /* ActivityIndicatorView.swift in Sources */,
+				444193CE215CD94500D0B15F /* CountryListTableViewCell.swift in Sources */,
+				44E5D14E215CBDBC00115ACD /* ViewController.swift in Sources */,
+				44E5D164215CD62900115ACD /* CountryListingViewController.swift in Sources */,
+				44E5D14C215CBDBC00115ACD /* AppDelegate.swift in Sources */,
+				4497B632215DE39A00F26A61 /* Reachability.swift in Sources */,
+				444193D1215CDB1900D0B15F /* CountryListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44E5D14F215CBDBC00115ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E5D150215CBDBC00115ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44E5D154215CBDBE00115ACD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E5D155215CBDBE00115ACD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E5D158215CBDBE00115ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44E5D159215CBDBE00115ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E5D15B215CBDBE00115ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A83D1DEE80C02A7C4E6274 /* Pods-Mobiotics IOS-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A2664VY9ZR;
+				INFOPLIST_FILE = "Mobiotics IOS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.pushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15c607d1-e225-4e29-b4eb-db781f27bb9b";
+				PROVISIONING_PROFILE_SPECIFIER = ZeilikDev;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44E5D15C215CBDBE00115ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE44E037EA1C53745DD7A84A /* Pods-Mobiotics IOS-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Mobiotics IOS-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.pushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E5D143215CBDBC00115ACD /* Build configuration list for PBXProject "Mobiotics IOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E5D158215CBDBE00115ACD /* Debug */,
+				44E5D159215CBDBE00115ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E5D15A215CBDBE00115ACD /* Build configuration list for PBXNativeTarget "Mobiotics IOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E5D15B215CBDBE00115ACD /* Debug */,
+				44E5D15C215CBDBE00115ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E5D140215CBDBC00115ACD /* Project object */;
+}
